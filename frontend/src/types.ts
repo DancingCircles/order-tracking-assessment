@@ -30,10 +30,19 @@ export interface Order {
   shipments: Shipment[]
   issues: string[]
   summary: { subtotal_ex_gst: string; gst: string; shipment_fee: string; total: string } | null
+  shipping_estimate: {
+    availability: 'estimated' | 'partial' | 'unavailable'
+    method: string
+    shipments: {
+      id: string; label: string; carrier: string; availability: 'estimated' | 'unavailable'
+      fee: string; reason: string | null; actual_weight_kg: string | null
+      volumetric_weight_kg: string | null; chargeable_weight_kg: string | null
+    }[]
+  }
 }
 
 export interface TrackingResult extends Shipment {
-  availability: 'available' | 'unavailable' | 'not_implemented'
+  availability: 'available' | 'unavailable'
   status: string | null
   last_updated: string | null
   reason: string | null

@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-30T06:50:27.496070+00:00",
-  "environment": "Australia Post / StarTrack testbed",
-  "credential_source": "updated HTML; values omitted",
+  "checked_at": "2026-09-30T07:24:31.370532+00:00",
+  "environment": "Australia Post / StarTrack testbed; TNT Australia public domestic tracking",
+  "credential_source": "server environment variables for Australia Post; no credentials for TNT public tracking",
   "tracking": [
     {
       "id": "track-1",
@@ -142,12 +142,49 @@
       "label": "Track 3",
       "carrier": "tnt",
       "tracking_no": "305506914",
-      "availability": "not_implemented",
-      "status": null,
-      "last_updated": null,
-      "reason": "TNT 接入为可选加分项，本期未实现；相关运费为 A$0.00",
-      "events": [],
-      "source": "not_implemented"
+      "availability": "available",
+      "status": "We've delivered your shipment",
+      "last_updated": "2025-12-04T13:00",
+      "reason": null,
+      "events": [
+        {
+          "description": "We've delivered your shipment",
+          "date": "2025-12-04T13:00",
+          "location": "Melbourne - Airport",
+          "article_id": "305506914"
+        },
+        {
+          "description": "Your shipment's with a driver",
+          "date": "2025-12-04T09:16",
+          "location": "Melbourne - Airport",
+          "article_id": "305506914"
+        },
+        {
+          "description": "We're processing your shipment",
+          "date": "2025-12-04T07:33",
+          "location": "Melbourne - Airport",
+          "article_id": "305506914"
+        },
+        {
+          "description": "We're processing your shipment",
+          "date": "2025-12-04T06:49",
+          "location": "Melbourne - Airport",
+          "article_id": "305506914"
+        },
+        {
+          "description": "We've collected your shipment",
+          "date": "2025-12-03T15:27",
+          "location": "Sydney - Enfield",
+          "article_id": "305506914"
+        },
+        {
+          "description": "Your shipment data is lodged",
+          "date": "2025-12-03T10:21",
+          "location": "Sydney - Enfield",
+          "article_id": "305506914"
+        }
+      ],
+      "source": "tnt_domestic_public"
     }
   ]
 }

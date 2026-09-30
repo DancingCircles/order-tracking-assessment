@@ -5,6 +5,8 @@ import os
 
 import httpx
 
+from .tnt import TntService
+
 TESTBED_URL = 'https://digitalapi.auspost.com.au/test/shipping/v1/track'
 
 
@@ -92,16 +94,15 @@ def parse_tracking(payload, shipment):
 
 
 class TrackingService:
-    def __init__(self, settings: TrackingSettings, transport=None):
+    def __init__(self, settings: TrackingSettings, transport=None, tnt_service=None):
         self.settings = settings
         self.transport = transport
+        self.tnt = tnt_service or TntService(transport, enabled=os.getenv('TNT_TRACKING_ENABLED', '1').strip().lower() not in ('0', 'false', 'no'))
 
     def query(self, shipment):
         result = base_result(shipment)
         if shipment['carrier'] == 'tnt':
-            result.update(availability='not_implemented', source='not_implemented',
-                          reason='TNT 接入为可选加分项，本期未实现；相关运费为 A$0.00')
-            return result
+            return self.tnt.query(shipment)
         if shipment['carrier'] not in ('startrack', 'auspost'):
             result['reason'] = '未支持此物流公司'
             return result

@@ -11,8 +11,8 @@ if __name__ == '__main__':
     results = [service.query(shipment) for order in OrderRepository(ROOT / 'data').read()
                for shipment in order['shipments']]
     report = {'checked_at': datetime.now(timezone.utc).isoformat(),
-              'environment': 'Australia Post / StarTrack testbed',
-              'credential_source': 'updated HTML; values omitted', 'tracking': results}
+              'environment': 'Australia Post / StarTrack testbed; TNT Australia public domestic tracking',
+              'credential_source': 'server environment variables for Australia Post; no credentials for TNT public tracking', 'tracking': results}
     path = ROOT / 'verification/tracking-check.json'
     path.parent.mkdir(exist_ok=True)
     path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

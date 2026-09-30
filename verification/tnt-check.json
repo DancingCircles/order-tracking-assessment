@@ -1,0 +1,54 @@
+{
+  "environment": "TNT Australia public domestic tracking",
+  "transport": "Official domestic tracking website, HTML form/history; not an authenticated XML API",
+  "tracking": {
+    "id": "track-3",
+    "label": "Track 3",
+    "carrier": "tnt",
+    "tracking_no": "305506914",
+    "availability": "available",
+    "status": "We've delivered your shipment",
+    "last_updated": "2025-12-04T13:00",
+    "reason": null,
+    "events": [
+      {
+        "description": "We've delivered your shipment",
+        "date": "2025-12-04T13:00",
+        "location": "Melbourne - Airport",
+        "article_id": "305506914"
+      },
+      {
+        "description": "Your shipment's with a driver",
+        "date": "2025-12-04T09:16",
+        "location": "Melbourne - Airport",
+        "article_id": "305506914"
+      },
+      {
+        "description": "We're processing your shipment",
+        "date": "2025-12-04T07:33",
+        "location": "Melbourne - Airport",
+        "article_id": "305506914"
+      },
+      {
+        "description": "We're processing your shipment",
+        "date": "2025-12-04T06:49",
+        "location": "Melbourne - Airport",
+        "article_id": "305506914"
+      },
+      {
+        "description": "We've collected your shipment",
+        "date": "2025-12-03T15:27",
+        "location": "Sydney - Enfield",
+        "article_id": "305506914"
+      },
+      {
+        "description": "Your shipment data is lodged",
+        "date": "2025-12-03T10:21",
+        "location": "Sydney - Enfield",
+        "article_id": "305506914"
+      }
+    ],
+    "source": "tnt_domestic_public"
+  },
+  "checked_at": "2026-09-30T07:23:02.992369+00:00"
+}

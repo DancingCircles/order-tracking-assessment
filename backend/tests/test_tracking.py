@@ -103,7 +103,7 @@ def test_tnt_and_missing_credentials_never_call_network():
         pytest.fail('Network should not be called')
     service = TrackingService(TrackingSettings(), httpx.MockTransport(forbidden))
     result = service.query({**SHIPMENT, 'carrier': 'tnt'})
-    assert result['availability'] == 'not_implemented'
+    assert result['availability'] == 'unavailable'
     assert result['status'] is None
     assert 'A$0.00' in result['reason']
     assert service.query(SHIPMENT)['availability'] == 'unavailable'

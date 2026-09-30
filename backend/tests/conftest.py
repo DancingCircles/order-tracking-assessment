@@ -5,6 +5,7 @@ import pytest
 
 @pytest.fixture(autouse=True)
 def forbid_live_network(monkeypatch):
+    monkeypatch.setenv('TNT_TRACKING_ENABLED', '0')
     original_connect = socket.socket.connect
     original_connect_ex = socket.socket.connect_ex
     def local_only(sock, address):

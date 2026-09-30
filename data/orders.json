@@ -1,0 +1,40 @@
+[
+  {
+    "order_no": "PO-20251130-00072",
+    "order_date": "2025-11-30",
+    "status": "Completed",
+    "company": "V22 Dispensary",
+    "customer": "Jason Hu",
+    "phone": "0481 735 488",
+    "email": "Jason@aerishealth.au",
+    "shipping": {"address": "125 Toorak Road, South Yarra VIC 3141", "postcode": "3141"},
+    "shipments": [{"id": "track-1", "label": "Track 1", "carrier": "startrack", "tracking_no": "2FWZ50008569"}],
+    "items": [
+      {"sku": "TBAMET10", "quantity": 3, "shipment_id": "track-1"},
+      {"sku": "TBAMET28", "quantity": 1, "shipment_id": "track-1"},
+      {"sku": "TBOPAL28", "quantity": 1, "shipment_id": "track-1"},
+      {"sku": "HARNIG", "quantity": 4, "shipment_id": "track-1"},
+      {"sku": "LELCBD100", "quantity": 6, "shipment_id": "track-1"}
+    ]
+  },
+  {
+    "order_no": "PO-20251203-00046",
+    "order_date": "2025-12-03",
+    "status": "In Transit",
+    "company": "Cann Life Dispensary",
+    "customer": "Bella Dari",
+    "phone": "0411 547 288",
+    "email": "Bella@aerishealth.au",
+    "shipping": {"address": "381 Smith Street, Fitzroy VIC 3065", "postcode": "3065"},
+    "shipments": [
+      {"id": "track-2", "label": "Track 2", "carrier": "startrack", "tracking_no": "2FWZ50008645"},
+      {"id": "track-3", "label": "Track 3", "carrier": "tnt", "tracking_no": "305506914"}
+    ],
+    "items": [
+      {"sku": "AURPUR10", "quantity": 10, "shipment_id": "track-2"},
+      {"sku": "HALGEO15", "quantity": 1, "shipment_id": "track-3"},
+      {"sku": "MCMW10", "quantity": 2, "shipment_id": "track-3"},
+      {"sku": "MCBO30", "quantity": 3, "shipment_id": "track-3"}
+    ]
+  }
+]

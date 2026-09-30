@@ -1,0 +1,128 @@
+[
+  {
+    "sku": "HALGEO15",
+    "name": "The Geoffrey CBG 12% 15g",
+    "description": "The Geoffrey is a CBG (cannabigerol) dominant medicinal cannabis flower, with 12% CBG, <0",
+    "rrp": "110.00",
+    "dimensions": {
+      "weight": "68.0g",
+      "length": "76.0mm",
+      "width": "76.0mm",
+      "height": "78.0mm",
+      "volume": "450528.0mm³",
+      "Volumetric_GrossWeight": "0.02kg"
+    }
+  },
+  {
+    "sku": "MCBO30",
+    "name": "BOB 30 (Alien OG) THC 30% 10g",
+    "description": "This batch of BOB 30 is the cultivar Alien OG and is a 30% THC indica dominant flower, suitable for afternoon or evening use. Alien OG is a cross between Tahoe OG and Alien Kush. The dominant terpenes are Myrcene, Beta -Caryophyllene and Limonene. This cultivar has been reported by patients to produce a cerebral and sedating effect, popular for relieving symptoms associated with chronic pain and insomnia. This strain offers a rich terpene profile, delivering a lemon, pine and gas aroma.",
+    "rrp": "99.00",
+    "dimensions": {
+      "weight": "59.0g",
+      "length": "76.0mm",
+      "width": "76.0mm",
+      "height": "79.0mm",
+      "volume": "456304.0mm³",
+      "Volumetric_GrossWeight": "0.1kg"
+    }
+  },
+  {
+    "sku": "MCMW10",
+    "name": "Maali Wind THC 25% 10g",
+    "description": "Maali Wind is the cultivar Strawberry Gas Cake and is a 25% THC indica dominant flower. Strawberry Gas Cake is a cross between Pink Panties and Sunset Sherbert. This flower is grown in organic living soil under the Australian sun using regenerative agriculture techniques, resulting in a flower which is rich in terpenes at 3%. The dominant terpenes are Myrcene, Pinene, Limonene, Caryophyllene and Linalool, which provide a sweet mango flavour with subtle zest and spicy, floral undertones. Maali Wind flowers are trichrome dense and are light green in colour with bright orange pistils. Maali Wind is most suitable for afternoon or evening use.",
+    "rrp": "129.00",
+    "dimensions": {
+      "weight": "59.0g",
+      "length": "76.0mm",
+      "width": "76.0mm",
+      "height": "79.0mm",
+      "volume": "456304.0mm³",
+      "Volumetric_GrossWeight": "0.1kg"
+    }
+  },
+  {
+    "sku": "LELCBD100",
+    "name": "CBD 100 - Full Spectrum Certified Organic",
+    "description": ".",
+    "rrp": "140.00",
+    "dimensions": {
+      "weight": "89.0g",
+      "length": "45.0mm",
+      "width": "34.0mm",
+      "height": "104.0mm",
+      "volume": "159120.0mm³",
+      "Volumetric_GrossWeight": "0.02kg"
+    }
+  },
+  {
+    "sku": "HARNIG",
+    "name": "Harbour LR Night Cartridge",
+    "description": ".",
+    "rrp": "149.00",
+    "dimensions": {
+      "weight": "25.0g",
+      "length": "30.0mm",
+      "width": "60.0mm",
+      "height": "120.0mm",
+      "volume": "216000.0mm³",
+      "Volumetric_GrossWeight": "0.02kg"
+    }
+  },
+  {
+    "sku": "AURPUR10",
+    "name": "Purple Raine THC18% 15g",
+    "description": ".",
+    "rrp": "99.00",
+    "dimensions": {
+      "weight": "68.0g",
+      "length": "76.0mm",
+      "width": "76.0mm",
+      "height": "78.0mm",
+      "volume": "450528.0mm³",
+      "Volumetric_GrossWeight": "0.02kg"
+    }
+  },
+  {
+    "sku": "TBAMET28",
+    "name": "Amethyst THC 25% 28G",
+    "description": "Our THC 25 – Amethyst Flower now comes in 28g size. Amethyst is a cultivar that has Wedding Cake and Animal Cookies heritage. The flowers have a light purple colouring with a dense bud structure heavily coated in trichomes. It is a Indica dominant cultivar with a sweet, grape and fruity like aroma. This flower is grown and produced in our AU-GMP certified facility located in Tasmania.",
+    "rrp": "199.00",
+    "dimensions": {
+      "weight": "93.0g",
+      "length": "86.0mm",
+      "width": "86.0mm",
+      "height": "113.0mm",
+      "volume": "835748.0mm³",
+      "Volumetric_GrossWeight": "0.4kg"
+    }
+  },
+  {
+    "sku": "TBOPAL28",
+    "name": "Opal THC 23% 28G",
+    "description": "Our THC 23 Opal product is now available in a 28g format. Opal has the classic White Widow genetic heritage. Being a sativa dominant hybrid it is abundant in terpinolene and has fresh, citrusy aroma. This flower is grown and produced in our facility located in Tasmania.",
+    "rrp": "199.00",
+    "dimensions": {
+      "weight": "93.0g",
+      "length": "86.0mm",
+      "width": "86.0mm",
+      "height": "113.0mm",
+      "volume": "835748.0mm³",
+      "Volumetric_GrossWeight": "0.4kg"
+    }
+  },
+  {
+    "sku": "TBAMET10",
+    "name": "Amethyst THC 25% 10G",
+    "description": "THC 25 Amethyst Flower is a cultivar that has Wedding Cake and Animal Cookies heritage. The flowers have a light purple colouring with a dense bud structure heavily coated in trichomes. It is a Indica dominant cultivar with a sweet, grape and fruity like aroma.",
+    "rrp": "99.00",
+    "dimensions": {
+      "weight": "56.0g",
+      "length": "67.0mm",
+      "width": "67.0mm",
+      "height": "104.0mm",
+      "volume": "466856.0mm³",
+      "Volumetric_GrossWeight": "0.1kg"
+    }
+  }
+]

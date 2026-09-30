@@ -1,0 +1,153 @@
+{
+  "checked_at": "2026-09-30T06:50:27.496070+00:00",
+  "environment": "Australia Post / StarTrack testbed",
+  "credential_source": "updated HTML; values omitted",
+  "tracking": [
+    {
+      "id": "track-1",
+      "label": "Track 1",
+      "carrier": "startrack",
+      "tracking_no": "2FWZ50008569",
+      "availability": "available",
+      "status": "Item Delivered",
+      "last_updated": "2025-02-13T11:49:59+11:00",
+      "reason": null,
+      "events": [
+        {
+          "date": "2025-02-13T11:49:59+11:00",
+          "article_id": "2FWZ50008569EXP00002",
+          "description": "Delivered",
+          "location": "LAKE CARGELLIGO NSW"
+        },
+        {
+          "date": "2025-02-13T11:49:59+11:00",
+          "article_id": "2FWZ50008569EXP00001",
+          "description": "Delivered",
+          "location": "LAKE CARGELLIGO NSW"
+        },
+        {
+          "date": "2025-02-13T09:38:37+11:00",
+          "article_id": "2FWZ50008569EXP00002",
+          "description": "Onboard for delivery",
+          "location": "WEST WYALONG NSW"
+        },
+        {
+          "date": "2025-02-13T09:38:37+11:00",
+          "article_id": "2FWZ50008569EXP00001",
+          "description": "Onboard for delivery",
+          "location": "WEST WYALONG NSW"
+        },
+        {
+          "date": "2025-02-12T06:01:28+11:00",
+          "article_id": "2FWZ50008569EXP00002",
+          "description": "Item processed at sorting facility",
+          "location": "EAST WAGGA WAGGA NSW"
+        },
+        {
+          "date": "2025-02-12T05:29:00+11:00",
+          "article_id": "2FWZ50008569EXP00001",
+          "description": "Item processed at sorting facility",
+          "location": "EAST WAGGA WAGGA NSW"
+        },
+        {
+          "date": "2025-02-11T22:14:41+11:00",
+          "article_id": "2FWZ50008569EXP00002",
+          "description": "Item processed at sorting facility",
+          "location": "TULLAMARINE VIC"
+        },
+        {
+          "date": "2025-02-11T00:11:15+11:00",
+          "article_id": "2FWZ50008569EXP00002",
+          "description": "Shipping information received by Australia Post",
+          "location": ""
+        },
+        {
+          "date": "2025-02-11T00:11:15+11:00",
+          "article_id": "2FWZ50008569EXP00001",
+          "description": "Shipping information received by Australia Post",
+          "location": ""
+        }
+      ],
+      "source": "testbed"
+    },
+    {
+      "id": "track-2",
+      "label": "Track 2",
+      "carrier": "startrack",
+      "tracking_no": "2FWZ50008645",
+      "availability": "available",
+      "status": "Item Delivered",
+      "last_updated": "2025-02-13T11:49:59+11:00",
+      "reason": null,
+      "events": [
+        {
+          "date": "2025-02-13T11:49:59+11:00",
+          "article_id": "2FWZ50008645EXP00002",
+          "description": "Delivered",
+          "location": "LAKE CARGELLIGO NSW"
+        },
+        {
+          "date": "2025-02-13T11:49:59+11:00",
+          "article_id": "2FWZ50008645EXP00001",
+          "description": "Delivered",
+          "location": "LAKE CARGELLIGO NSW"
+        },
+        {
+          "date": "2025-02-13T09:38:37+11:00",
+          "article_id": "2FWZ50008645EXP00002",
+          "description": "Onboard for delivery",
+          "location": "WEST WYALONG NSW"
+        },
+        {
+          "date": "2025-02-13T09:38:37+11:00",
+          "article_id": "2FWZ50008645EXP00001",
+          "description": "Onboard for delivery",
+          "location": "WEST WYALONG NSW"
+        },
+        {
+          "date": "2025-02-12T06:01:28+11:00",
+          "article_id": "2FWZ50008645EXP00002",
+          "description": "Item processed at sorting facility",
+          "location": "EAST WAGGA WAGGA NSW"
+        },
+        {
+          "date": "2025-02-12T05:29:00+11:00",
+          "article_id": "2FWZ50008645EXP00001",
+          "description": "Item processed at sorting facility",
+          "location": "EAST WAGGA WAGGA NSW"
+        },
+        {
+          "date": "2025-02-11T22:14:41+11:00",
+          "article_id": "2FWZ50008645EXP00002",
+          "description": "Item processed at sorting facility",
+          "location": "TULLAMARINE VIC"
+        },
+        {
+          "date": "2025-02-11T00:11:15+11:00",
+          "article_id": "2FWZ50008645EXP00002",
+          "description": "Shipping information received by Australia Post",
+          "location": ""
+        },
+        {
+          "date": "2025-02-11T00:11:15+11:00",
+          "article_id": "2FWZ50008645EXP00001",
+          "description": "Shipping information received by Australia Post",
+          "location": ""
+        }
+      ],
+      "source": "testbed"
+    },
+    {
+      "id": "track-3",
+      "label": "Track 3",
+      "carrier": "tnt",
+      "tracking_no": "305506914",
+      "availability": "not_implemented",
+      "status": null,
+      "last_updated": null,
+      "reason": "TNT 接入为可选加分项，本期未实现；相关运费为 A$0.00",
+      "events": [],
+      "source": "not_implemented"
+    }
+  ]
+}
